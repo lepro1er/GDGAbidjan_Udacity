@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd5d5d5">
+
+    <ImageView
+        android:id="@+id/aboutTitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/titre_contacts"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/retour"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/menu_retour"
+        android:layout_gravity="center"
+        android:background="#ffd5d5d5"
+        android:onClick="onClick">
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/adresse_phy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/contacts_adresse"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/contacts_tel"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/contacts_email"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/basLogo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_gdgabidjan"
+        android:background="#ffd5d5d5"
+        android:layout_gravity="center"/>
+</LinearLayout>

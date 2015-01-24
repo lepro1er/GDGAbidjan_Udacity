@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd5d5d5">
+
+    <ImageView
+        android:id="@+id/aboutTitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/titre_gdgabidjan"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/retour"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/menu_retour"
+        android:layout_gravity="center"
+        android:background="#ffd5d5d5"
+        android:onClick="onClick">
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/gdg..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="GDG (Google Developers Group) Abidjan, est un groupe d’utilisateurs intéressés par les technologies Google : "/>
+    <TextView
+        android:id="@+id/gwt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="- GWT"/>
+    <TextView
+        android:id="@+id/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="- Android"/>
+    <TextView
+        android:id="@+id/app_engine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="- App Engine"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="- Les APIs Google"/>
+    <TextView
+        android:id="@+id/mais..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="mais également les techno du Web comme :"/>
+    <TextView
+        android:id="@+id/HTML5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="- HTML5"/>
+    <TextView
+        android:id="@+id/CSS3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="- CSS3…"/>
+    <TextView
+        android:id="@+id/ils..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Ils sont à la fois composés de travailleurs, d’étudiants, jeunes et dynamiques désireux d’apprendre et de faire apprendre."/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#ffcacaca"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"></LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/basLogo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_gdgabidjan"
+        android:background="#ffd5d5d5"
+        android:layout_gravity="center"/>
+</LinearLayout>

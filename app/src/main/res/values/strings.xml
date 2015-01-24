@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GDG Abidjan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">ACCUEIL</string>
+    <string name="about">GDG ABIDJAN</string>
+    <string name="cellules">NOS CELLULES</string>
+    <string name="contacts">CONTACTS</string>
+    <string name="event">EVENEMENTS</string>
+    <string name="cool_news">INFOS UTILES</string>
+    <string name="contacts_adresse">Cote d Ivoire - Abidjan - Cocody Danga INP-HB</string>
+    <string name="contacts_tel">Tel: +225 06 44 74 35</string>
+    <string name="contacts_email">Email : moussa282002@gmail.com</string>
+    <string name="textAbout">
+        <p>L’objectif du GDG Abidjan est d’organiser des évènements de manière régulière :</p>
+        <ul>
+            <li>* Conférences sur les technologies Google, Web …</li>
+            <li>* Des workshops et CODELABS</li>
+            <li>* Des concours (Hackathon…)</li>
+        </ul>
+        <p>Le GDG Abidjan est également partenaire d’évènements nationaux ou d’autres communautés tels que les JUG</p></string>
+    <string name="textCellules">
+        - Google+
+        - Android
+        - Cloud Platform
+        - Chrome/HTML5
+        - Games
+        - Google Maps / Earth
+        - Google Apps
+        - Google TV
+        - Google Wallet
+        - YouTube
+        - Google Security
+    </string>
+
+</resources>

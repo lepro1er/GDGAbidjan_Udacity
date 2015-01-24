@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd5d5d5">
+
+    <ImageView
+        android:id="@+id/logoHaut"
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:src="@drawable/titre_welcome"
+        android:background="#ffd5d5d5"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="MENU ACCUEIL"
+        android:textSize="20dp"
+        android:layout_gravity="center">
+    </TextView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:src="@drawable/menu_accueil"
+        android:layout_gravity="center"
+        android:background="#ffd5d5d5"
+        android:onClick="onClick">
+    </ImageButton>
+
+    <ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/about"
+    android:src="@drawable/menu_gdgabidjan"
+    android:layout_gravity="center"
+    android:background="#ffd5d5d5"
+    android:onClick="onClick">
+</ImageButton>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cellules"
+        android:src="@drawable/menu_cellules"
+        android:layout_gravity="center"
+        android:background="#ffd5d5d5"
+        android:onClick="onClick">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contacts"
+        android:src="@drawable/menu_contacts"
+        android:layout_gravity="center"
+        android:background="#ffd5d5d5"
+        android:onClick="onClick">
+    </ImageButton>
+
+    <ImageView
+        android:id="@+id/basLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/poweredby_google"
+        android:background="#ffd5d5d5"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
